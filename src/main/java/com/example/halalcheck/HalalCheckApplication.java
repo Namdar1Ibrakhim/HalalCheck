@@ -6,7 +6,7 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-@OpenAPIDefinition(info = @Info(title = "Library APIS", version = "1.0", description = "Library Management Apis"))
+@OpenAPIDefinition(info = @Info(title = "Library APIS", version = "1.0", description = "HalalCheck Library Management Apis"))
 public class HalalCheckApplication {
 
     public static void main(String[] args) {
