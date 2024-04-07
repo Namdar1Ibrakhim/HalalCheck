@@ -2,13 +2,10 @@ package com.example.halalcheck.service.impl;
 
 import com.example.halalcheck.dto.response.CompanyResponseDto;
 import com.example.halalcheck.entity.Company;
-import com.example.halalcheck.entity.Product;
 import com.example.halalcheck.enums.Status;
 import com.example.halalcheck.mapper.CompanyMapper;
 import com.example.halalcheck.repository.CompanyRepository;
 import com.example.halalcheck.service.CompanyService;
-import com.example.halalcheck.service.ImageService;
-import io.minio.errors.*;
 import jakarta.persistence.EntityNotFoundException;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
