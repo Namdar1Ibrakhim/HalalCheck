@@ -43,9 +43,10 @@ public class Product {
 
     private String imageUrl;
 
-    private String certificateLogoUrl;
+    private Boolean certified;
 
-    private String certificateLink;
+    @OneToOne
+    private Certificate certificate;
 
     @ManyToOne
     private Category category;

@@ -35,5 +35,9 @@ public class ProductResponseDto {
 
     private List<Ingredients> ingredients;
 
+    private Boolean certified;
+
+    private Certificate certificate;
+
 
 }
