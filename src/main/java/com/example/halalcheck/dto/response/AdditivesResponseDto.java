@@ -1,5 +1,6 @@
 package com.example.halalcheck.dto.response;
 
+import com.example.halalcheck.entity.ECategory;
 import com.example.halalcheck.enums.Status;
 import lombok.Data;
 
@@ -11,6 +12,8 @@ public class AdditivesResponseDto {
     private String code;
 
     private String description;
+
+    private ECategory eCategory;
 
     private Status status;
 
