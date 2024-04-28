@@ -14,4 +14,12 @@ public class AdditivesResponseDto {
 
     private Status status;
 
+    private String halalIf;
+
+    private String haramIf;
+
+    private String benefit;
+
+    private String harm;
+
 }

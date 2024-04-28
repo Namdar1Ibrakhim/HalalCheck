@@ -33,6 +33,14 @@ public class Additives {
     @ManyToOne
     private ECategory eCategory;
 
+    private String halalIf;
+
+    private String haramIf;
+
+    private String benefit;
+
+    private String harm;
+
 //    @ManyToMany
 //    private List<Product> products;
 }
