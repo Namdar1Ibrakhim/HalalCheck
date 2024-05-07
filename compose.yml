@@ -1,19 +1,9 @@
 version: '3.8'
 
 services:
-  minio:
-    image: minio/minio:latest
-    container_name: minio
-    environment:
-      - MINIO_ROOT_USER=${MINIO_ACCESS_KEY}
-      - MINIO_ROOT_PASSWORD=${MINIO_SECRET_KEY}
-    command: server ~/minio --console-address :9090
+  app:
+    build:
+      dockerfile: Dockerfile
+    container_name: HalalCheck
     ports:
-      - '9090:9090'
-      - '9000:9000'
-    volumes:
-      - minio-data:/minio
-
-volumes:
-  minio-data:
-    driver: local
+      - '8080:8080'

@@ -24,6 +24,4 @@ public class Certificate {
 
     private String imageUrl;
 
-
-
 }
